@@ -23,7 +23,7 @@ def get_cookie():
 
 ##抢优惠券
 def getCoupon():
-    sched_Timer="2017-06-14 16:14" ##配置抢券的时间
+    sched_Timer="2017-06-14 20:00" ##配置抢券的时间
     ##配置要抢购的券的url  在浏览器的Network中找
     couPonUrl="https://api.m.jd.com/client.action?functionId=newBabelAwardCollection&body=%7B%22activityId%22%3A%223tPzkSJZdNRuhgmowhPn7917dcq1%22%2C%22scene%22%3A%221%22%2C%22args%22%3A%22key%3D898c3948b1a44f36b032c8619e2514eb%2CroleId%3D6983488%2Cto%3Dpro.m.jd.com%2Fmall%2Factive%2F3tPzkSJZdNRuhgmowhPn7917dcq1%2Findex.html%22%2C%22mitemAddrId%22%3A%22%22%2C%22geo%22%3A%7B%22lng%22%3A%22%22%2C%22lat%22%3A%22%22%7D%7D&client=wh5&clientVersion=1.0.0&sid=dce17971eb6cbfcc2275dded296bcb58&uuid=1506710045&area=&_=1497422307569&callback=jsonp5"
     ##配置要抢购的券的referer  在浏览器的Network中找
